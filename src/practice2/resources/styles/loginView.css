@@ -1,0 +1,26 @@
+.root {
+ -fx-background-image: url("../images/loginBackground.jpg");
+}
+
+#welcomeLabel {
+ -fx-font-size: 26px;
+ -fx-font-family: "Arial Narrow";
+}
+
+#usernameLabel {
+ -fx-font-size: 22px;
+ -fx-font-family: "Arial Narrow";
+ -fx-font-weight: bold;
+}
+
+#passwordLabel {
+ -fx-font-size: 22px;
+ -fx-font-family: "Arial Narrow";
+ -fx-font-weight: bold;
+}
+
+#signInButton {
+ -fx-font-size: 20px;
+ -fx-font-family: "Arial Narrow";
+ -fx-font-weight: bold;
+}

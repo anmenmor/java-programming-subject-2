@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="practice2.controller.GameController">
+   <children>
+      <Label fx:id="combatLabel" alignment="CENTER" layoutX="195.0" layoutY="30.0" prefHeight="28.0" prefWidth="216.0" text="Combat Scene" textAlignment="CENTER">
+         <font>
+            <Font />
+         </font></Label>
+      <Label fx:id="fighterLabel" alignment="CENTER" layoutX="61.0" layoutY="100.0" prefHeight="27.0" prefWidth="137.0" text="Select fighter">
+         <font>
+            <Font size="12.0" />
+         </font></Label>
+      <Label fx:id="oponentLabel" alignment="CENTER" layoutX="398.0" layoutY="100.0" prefHeight="28.0" prefWidth="150.0" text="Select oponent">
+         <font>
+            <Font size="12.0" />
+         </font></Label>
+      <Button fx:id="figthButton" disable="true" layoutX="270.0" layoutY="240.0" mnemonicParsing="false" onAction="#startFight" prefHeight="27.0" prefWidth="101.0" text="Fight">
+         <font>
+            <Font size="12.0" />
+         </font></Button>
+      <Button fx:id="resetButton" layoutX="270.0" layoutY="120.0" mnemonicParsing="false" onAction="#resetValues" prefHeight="27.0" prefWidth="93.0" text="Reset">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <ImageView fx:id="fighterImage" fitHeight="150.0" fitWidth="200.0" layoutX="50.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="oponentImage" fitHeight="150.0" fitWidth="200.0" layoutX="405.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true" />
+      <ComboBox fx:id="fighterSelected" layoutX="55.0" layoutY="140.0" onAction="#chooseFighter" prefWidth="150.0" />
+      <ComboBox fx:id="oponentSelected" layoutX="400.0" layoutY="140.0" onAction="#chooseOponent" prefWidth="150.0" />
+      <Label fx:id="messageLabel" alignment="CENTER" layoutX="128.0" layoutY="360.0" prefHeight="17.0" prefWidth="392.0">
+         <font>
+            <Font />
+         </font></Label>
+   </children>
+</Pane>

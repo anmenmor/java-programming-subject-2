@@ -1,0 +1,40 @@
+
+.root {
+    -fx-background-image: url("../images/fightBackground.jpg");
+}
+
+#figthButton {
+ -fx-font-size: 20px;
+ -fx-font-family: "Arial Narrow";
+ -fx-font-weight: bold;
+}
+
+#resetButton {
+ -fx-font-size: 20px;
+ -fx-font-family: "Arial Narrow";
+ -fx-font-weight: bold;
+}
+
+#messageLabel {
+ -fx-font-size: 20px;
+ -fx-font-family: "Arial Narrow";
+ -fx-font-weight: bold;
+}
+
+#combatLabel {
+ -fx-font-size: 34px;
+ -fx-font-family: "Arial Narrow";
+ -fx-font-weight: bold;
+}
+
+#fighterLabel {
+ -fx-font-size: 20px;
+ -fx-font-family: "Arial Narrow";
+ -fx-font-weight: bold;
+}
+
+#oponentLabel {
+ -fx-font-size: 20px;
+ -fx-font-family: "Arial Narrow";
+ -fx-font-weight: bold;
+}
